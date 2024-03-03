@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    border: solid;
+    height: 243px;
+    background-color: azure;
+}
+
+main{
+    border: solid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ladoDireito{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.central{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
