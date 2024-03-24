@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
+
 }
 
 header{
@@ -13,9 +14,46 @@ header{
 main{
     border: solid;
     width: 100%;
+    height: 80%;
     display: flex;
     flex-direction: row;
 }
+
+.sectionBusca{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    border: solid;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.divBusca{
+    border: solid;
+    height: 20%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    padding: 3px;
+}
+.lupa{
+    width: 8%;
+}
+
+.sectionTitulo{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center; 
+}
+.divTitulo{
+    border: solid;
+
+}
+
+.txtBusca{
+    width: 100%;
+}
+
 
 .ladoDireito{
     width: 20%;
