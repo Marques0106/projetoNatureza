@@ -25,28 +25,41 @@
 
 
     <main>
-        <section class="ladoDireito">
+        <section class="ladoEsquerdo">
             <div class ="superiorDoMenu">
-                <button class="botao">Biomas</button>
-                <button class="botao">Animais</button>
-                <button class="botao">Sobre</button>
+                <button class="botao" id = "btnBiomas" onclick="mostrarLista('listaBiomas')">Biomas</button>
+                <button class="botao" id = "btnAnimais" onclick="mostrarLista('listaAnimais')">Animais</button>
+                <button class="botao" id = "btnSobre" onclick="mostrarLista('listaSobre')">Sobre</button>
             </div>
 
-            <div class="InferiorDoMenu">
-                <li class="itensFauna">
-                    <ul>Amazônia</ul>
-                    <ul>Cerrado</ul>
-                    <ul>Caatinga</ul>
-                    <ul>Pantanal</ul>
-                    <ul>Mata Atlântica</ul>
-                    <ul>Pampa</ul>
-                </li>
-            </div>
+            <ul class="itens" id="listaBiomas">
+                <li>Amazônia</li>
+                <li>Cerrado</li>
+                <li>Caatinga</li>
+                <li>Pantanal</li>
+                <li>Mata Atlântica</li>
+                <li>Pampa</li>
+            </ul>
+    
+            <ul class="itens" id="listaAnimais" style="display: none;">
+                <li>Onça Pintada</li>
+                <li>Onça Parda</li>
+                <li>Anta</li>
+            </ul>
+    
+            <ul class="itens" id="listaSobre" style="display: none;">
+                <li>Informações sobre o projeto</li>
+            </ul>
+            
         </section>
 
         <section class="central">
-            <img src="img/unnamed.png" alt="imagemOnca">
-            <p class="informacoesDaImagem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, enim corrupti aperiam labore voluptates modi ipsum? Aspernatur omnis dignissimos consequatur molestiae, nostrum optio voluptatem. Deserunt voluptatum at soluta excepturi blanditiis?</p>
+            <div class="espacoImagem">
+                <img class = "RetornoImagem" src="img/unnamed.png" alt="imagemOnca">
+            </div>
+            <div class="espacoTexto">
+                <p class="retornoTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, enim corrupti aperiam labore voluptates modi ipsum? Aspernatur omnis dignissimos consequatur molestiae, nostrum optio voluptatem. Deserunt voluptatum at soluta excepturi blanditiis?</p>
+            </div>
         </section>
     </main>
 
@@ -55,6 +68,6 @@
 
     </footer>
     
-
+    <script src="logica.js"></script>
 </body>
 </html>
