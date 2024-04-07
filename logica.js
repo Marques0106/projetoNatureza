@@ -17,3 +17,5 @@ function mostrarLista(lista) {
     ocultarListas(lista);
     document.getElementById(lista).style.display = "block";
 }
+
+

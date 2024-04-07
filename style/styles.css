@@ -18,7 +18,14 @@ main{
     display: flex;
     flex-direction: row;
 }
-
+footer{
+    height: 20%;
+    width: 100%;
+    background-color: #007b5e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .sectionBusca{
     display: flex;
     height: 25%;
@@ -107,6 +114,40 @@ main{
 
 
 
-footer{
-    height: 20%;
+
+.minhasInformacoes{
+    width: 20%;
+    height: 100%;
+    border: solid;
+}
+.meuInfo{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoImagemCode{
+    display: flex;
+
+    justify-content: center;
+}
+
+.redesSociais{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+}
+.imagemRede{
+    height: 35px;
+    width: auto;
+}
+.iconesTextoRedes{
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    border: solid;
 }
