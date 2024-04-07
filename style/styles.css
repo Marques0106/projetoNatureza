@@ -24,6 +24,7 @@ footer{
     background-color: #007b5e;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 .sectionBusca{
@@ -53,8 +54,9 @@ footer{
     justify-content: center; 
 }
 .divTitulo{
-    border: solid;
-
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eaf4f4;
 }
 
 .txtBusca{
@@ -66,6 +68,7 @@ footer{
     width: 20%;
     display: flex;
     flex-direction: column;
+    border: solid;
 }
 
 .superiorDoMenu{
@@ -74,7 +77,6 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid;
 }
 
 .botao{
@@ -96,7 +98,6 @@ footer{
 
 
 .central{
-    border: solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,24 +105,25 @@ footer{
 
 .espacoImagem{
     width: 33%;
-    border: solid;
 }
 
 .espacoTexto{
     width: 33%;
-    border: solid;
 }
 
 
 
-
+.alinhaFooter{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .minhasInformacoes{
     width: 20%;
     height: 100%;
-    border: solid;
 }
 .meuInfo{
-    border: solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,7 +131,6 @@ footer{
 
 .textoImagemCode{
     display: flex;
-
     justify-content: center;
 }
 
@@ -139,7 +140,6 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid;
 }
 .imagemRede{
     height: 35px;
@@ -149,5 +149,8 @@ footer{
     display: flex;
     justify-content: space-around;
     width: 10%;
-    border: solid;
+}
+
+.textoFooter{
+    color: white;
 }
